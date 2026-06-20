@@ -1,1 +1,34 @@
 -->>> LangChain is a framework that helps you turn an LLM into a complete AI application.
+An LLM alone can only answer based on what it already knows.
+
+LangChain helps the LLM:
+
+Read PDFs and documents
+Search a database
+Use APIs and tools
+Remember previous conversations
+Perform tasks step by step
+Build RAG applications and AI agents
+
+
+Easy example
+
+Suppose you are building a hospital chatbot.
+
+The user asks:
+
+“What was my last prescription?”
+
+A normal LLM does not know the patient’s personal prescription.
+
+With LangChain, the process can be:
+
+User asks a question
+↓
+LangChain checks the patient database
+↓
+It finds the relevant prescription
+↓
+It sends that information to the LLM
+↓
+The LLM gives a clear answer
