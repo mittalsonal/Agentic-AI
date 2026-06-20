@@ -32,3 +32,38 @@ It finds the relevant prescription
 It sends that information to the LLM
 ↓
 The LLM gives a clear answer
+
+
+---------->>>>>> MIDDLEWARE
+
+
+what is middleware in LangChain?
+
+Middleware is extra logic that runs before, after, or around an AI agent’s actions.
+
+--->> Built-in middleware
+
+Built-in middleware is already created by LangChain.
+
+Common built-in middleware includes:
+
+SummarizationMiddleware — summarizes long conversations
+HumanInTheLoopMiddleware — asks a human before sensitive actions
+
+
+---->>> Custom middleware
+
+Custom middleware is middleware that you create yourself for your project’s specific requirements.
+
+You can create custom middleware for:
+
+Custom logging
+Checking user permissions
+Blocking specific words
+Adding user information to the prompt
+Tracking token usage
+Choosing a different model based on the request
+Limiting conversations
+Custom error handling
+
+
