@@ -1,0 +1,7 @@
+install the uv package 
+and then write -> uv init 
+and it will create few projects 
+
+write ->> uv venv ->> for creating the virtual environment 
+
+activate the virtual environment with command or with any given command ->>> .venv\Scripts\activate
