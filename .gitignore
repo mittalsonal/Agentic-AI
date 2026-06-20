@@ -1,0 +1,11 @@
+@"
+# Secret environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/.venv/
+**/__pycache__/
+*.pyc
+"@ | Set-Content .gitignore
